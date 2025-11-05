@@ -50,3 +50,4 @@ const StatCard = ({ title, value, change, trend, icon: Icon, color }: StatCardPr
 
 export default StatCard;
 
+
