@@ -60,4 +60,3 @@ src/
 Чат компонент подготовлен для интеграции с AI backend. 
 Для подключения необходимо настроить API endpoint в файле `src/features/chat/api/chatApi.ts`.
 
-
