@@ -157,9 +157,6 @@ const ChatSection = ({ isOpen, onToggle }: ChatSectionProps) => {
             <FiSend className="w-5 h-5" />
           </button>
         </form>
-        <p className="text-xs text-gray-500 mt-2 text-center">
-          AI может допускать ошибки. Проверяйте важную информацию.
-        </p>
       </div>
     </div>
   );

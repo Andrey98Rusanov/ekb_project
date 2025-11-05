@@ -1,4 +1,13 @@
-import { CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import {
+  CartesianGrid,
+  Legend,
+  Line,
+  LineChart,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from 'recharts';
 
 const data = [
   { name: 'Янв', users: 4000, sessions: 2400, revenue: 2400 },
@@ -61,5 +70,3 @@ const AnalyticsChart = () => {
 };
 
 export default AnalyticsChart;
-
-

@@ -1,4 +1,4 @@
-import { FiBell, FiLogOut, FiUser } from 'react-icons/fi';
+import { FiLogOut, FiUser } from 'react-icons/fi';
 
 interface User {
   name: string;
@@ -39,12 +39,6 @@ const Header = ({ user, onLogout }: HeaderProps) => {
 
         {/* User Section */}
         <div className="flex items-center space-x-4">
-          {/* Notifications */}
-          <button className="relative p-2 text-gray-600 hover:bg-gray-100 rounded-lg transition-colors">
-            <FiBell className="w-5 h-5" />
-            <span className="absolute top-1 right-1 w-2 h-2 bg-red-500 rounded-full"></span>
-          </button>
-
           {/* User Info */}
           <div className="flex items-center space-x-3 px-3 py-2 bg-gray-50 rounded-lg">
             <div className="flex items-center justify-center w-8 h-8 bg-primary-100 text-primary-600 rounded-full">
@@ -71,5 +65,3 @@ const Header = ({ user, onLogout }: HeaderProps) => {
 };
 
 export default Header;
-
-
